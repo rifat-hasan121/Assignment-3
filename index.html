@@ -25,7 +25,6 @@
               "color-bg": "#FFF9F4",
               "color-bg3d": "#FFDC26",
               "card-bg": "#F9DF8A",
-            
             },
           },
         },
@@ -113,7 +112,9 @@
               >
                 Login
               </button>
-              <button class="btn btn-warning bg-color-primary hover:bg-yellow-400 px-4 text-xl font-normal">
+              <button
+                class="btn btn-warning bg-color-primary hover:bg-yellow-400 px-4 text-xl font-normal"
+              >
                 Register
               </button>
             </div>
@@ -140,70 +141,373 @@
       <section
         class="w-10/12 mx-auto md:bg-[url(./c1-assets/cat-big.png)] md:h-[750px] mb-[56px] md:mb-[120px]"
       >
-        <h3 class=" mt-5 text-[30px] md:text-[56px] md:mt-24 title-font mb-4">
+        <h3 class="mt-5 text-[30px] md:text-[56px] md:mt-24 title-font mb-4">
           Pamper Your Pet,
           <br />
           Because They Deserve
           <br />
           the Bes
         </h3>
-        <p class="text-base  md:text-xl text-[#111111] mb-6">
+        <p class="text-base md:text-xl text-[#111111] mb-6">
           Discover a world of treats, toys, and essentials handpicked for
-          <br>
-           your
-          furry friends. Shop now and make tails wag with joy!
+          <br />
+          your furry friends. Shop now and make tails wag with joy!
         </p>
-        <button class="btn btn-secondary bg-color-primary hover:bg-yellow-400 border-none text-black font-normal px-8">Find a pet</button>
-        <img class="w-full md:hidden" src="./c1-assets/cat-big.png" alt="">
+        <button
+          class="btn btn-secondary bg-color-primary hover:bg-yellow-400 border-none text-black font-normal px-8"
+        >
+          Find a pet
+        </button>
+        <img class="w-full md:hidden" src="./c1-assets/cat-big.png" alt="" />
       </section>
     </header>
     <main>
-        <!-- Browse By Categories -->
-         <section class="w-10/12 mx-auto">
-            <h3 class="title-font text-2xl mb-8 md:text-[36px] md:mb-12">Browse By Categories</h3>
-            <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6   mb-[126px]">
-            <!-- card 1 -->
-                <div class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center">
-                    <div class="flex justify-center"><img class="bg-white rounded-full p-4 mb-5" src="./c1-assets/dog-cartoon.png" alt=""></div>
-                    <h2 class="title-font text-xl text-center mb-2">Dog</h2>
-                    <p class="text-center text-[#000000]">3 items</p>
-                </div>
-                <!-- card 2 -->
-                <div class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center">
-                    <div class="flex justify-center"><img class="bg-white rounded-full p-4 mb-5" src="./c1-assets/fish-cartoon.png" alt=""></div>
-                    <h2 class="title-font text-xl text-center mb-2">Fish</h2>
-                    <p class="text-center text-[#000000]">3 items</p>
-                </div>
-                <!-- card 3 -->
-                <div class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center">
-                    <div class="flex justify-center"><img class="bg-white rounded-full p-4 mb-5" src="./c1-assets/cat-cartoon.png" alt=""></div>
-                    <h2 class="title-font text-xl text-center mb-2">Cat</h2>
-                    <p class="text-center text-[#000000]">3 items</p>
-                </div>
-                <!-- card 4 -->
-                <div class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center">
-                    <div class="flex justify-center"><img class="bg-white rounded-full p-4 mb-5" src="./c1-assets/bird-cartoon.png" alt=""></div>
-                    <h2 class="title-font text-xl text-center mb-2">Birds</h2>
-                    <p class="text-center text-[#000000]">3 items</p>
-                </div>
-                <!-- card 5 -->
-                <div class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center">
-                    <div class="flex justify-center"><img class="bg-white rounded-full p-4 mb-5" src="./c1-assets/mouse-cartoon.png" alt=""></div>
-                    <h2 class="title-font text-xl text-center mb-2">Small pet</h2>
-                    <p class="text-center text-[#000000]">3 items</p>
-                </div>
-                <!-- card 6 -->
-                <div class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center">
-                    <div class="flex justify-center"><img class="bg-white rounded-full p-4 mb-5" src="./c1-assets/rabbit-cartoon.png" alt=""></div>
-                    <h2 class="title-font text-xl text-center mb-2">Rabit</h2>
-                    <p class="text-center text-[#000000]">3 items</p>
-                </div>
-
+      <!-- Browse By Categories -->
+      <section class="w-10/12 mx-auto">
+        <h3 class="title-font text-2xl mb-8 md:text-[36px] md:mb-12">
+          Browse By Categories
+        </h3>
+        <div
+          class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6 mb-[126px]"
+        >
+          <!-- card 1 -->
+          <div
+            class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center"
+          >
+            <div class="flex justify-center">
+              <img
+                class="bg-white rounded-full p-4 mb-5"
+                src="./c1-assets/dog-cartoon.png"
+                alt=""
+              />
             </div>
+            <h2 class="title-font text-xl text-center mb-2">Dog</h2>
+            <p class="text-center text-[#000000]">3 items</p>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center"
+          >
+            <div class="flex justify-center">
+              <img
+                class="bg-white rounded-full p-4 mb-5"
+                src="./c1-assets/fish-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title-font text-xl text-center mb-2">Fish</h2>
+            <p class="text-center text-[#000000]">3 items</p>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center"
+          >
+            <div class="flex justify-center">
+              <img
+                class="bg-white rounded-full p-4 mb-5"
+                src="./c1-assets/cat-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title-font text-xl text-center mb-2">Cat</h2>
+            <p class="text-center text-[#000000]">3 items</p>
+          </div>
+          <!-- card 4 -->
+          <div
+            class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center"
+          >
+            <div class="flex justify-center">
+              <img
+                class="bg-white rounded-full p-4 mb-5"
+                src="./c1-assets/bird-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title-font text-xl text-center mb-2">Birds</h2>
+            <p class="text-center text-[#000000]">3 items</p>
+          </div>
+          <!-- card 5 -->
+          <div
+            class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center"
+          >
+            <div class="flex justify-center">
+              <img
+                class="bg-white rounded-full p-4 mb-5"
+                src="./c1-assets/mouse-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title-font text-xl text-center mb-2">Small pet</h2>
+            <p class="text-center text-[#000000]">3 items</p>
+          </div>
+          <!-- card 6 -->
+          <div
+            class="bg-card-bg h-[254px] rounded-xl flex flex-col justify-center"
+          >
+            <div class="flex justify-center">
+              <img
+                class="bg-white rounded-full p-4 mb-5"
+                src="./c1-assets/rabbit-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h2 class="title-font text-xl text-center mb-2">Rabit</h2>
+            <p class="text-center text-[#000000]">3 items</p>
+          </div>
+        </div>
+      </section>
+      <!-- Trending Pet Products -->
+      <section class="md:bg-color-bg md:mb-[140px] md:pb-[120px]">
+        <div class="w-10/12 mx-auto">
+          <h3 class="title-font text-2xl mb-8 md:text-[36px] md:pt-[120px] md:mb-12">
+            Trending Pet Products
+          </h3>
+          <div class=" md:flex md:gap-6">
+            <!-- t-shirt container -->
+            <div class=" md:w-[424px] h-[450px] mx-auto bg-card-bg rounded-xl overflow-hidden mb-4">
+              <h3 class="title-font text-2xl pl-4 pt-10 mb-4">
+                T-Shirt For Dogs
+              </h3>
+              <p class="text-sm pl-4 mb-4">
+                Discover a world for treats, toys and
+                <br />
+                essentials handpicked for
+              </p>
+              <button class="text-black bg-white px-4 py-2 rounded-xl ml-4">
+                Shop Now
+              </button>
 
-         </section>
-
-      
+              <img
+                class=" ml-24 md:ml-32 -mt-16 w-[240px] "
+                src="./c1-assets/cute-pet-mid.png"
+                alt=""
+              />
+            </div>
+            <!-- ped bed container -->
+            <div class="">
+              
+              <div class="grid grid-cols-2 gap-2  md:grid-cols-3 md:gap-6">
+                 <!-- card 1 -->
+                <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 2 -->
+                <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 3 -->
+               <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 4 -->
+                <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 5 -->
+               <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 6 -->
+             <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 7 -->
+                <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 8 -->
+               <div class="bg-white border h-fit md:w-[275px] flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="size-4 md:size-6 mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              <!-- card 9 -->
+               <div class="hidden bg-white border h-fit md:w-[275px] md:flex gap-2 pl-2 pr-6 py-1  md:gap-4 md:px-4 md:py-3 rounded-xl ">
+                <!-- image -->
+                <div class="md:bg-color-bg  md:px-4 rounded-xl flex items-center">
+                  <img
+                    class="bg-color-bg p-2 rounded-xl"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt=""
+                  />
+                </div>
+                <!-- text -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class=" mask mask-star-2 bg-orange-400"
+                    />
+                    <div class=" ml-2 md:ml-3 flex justify-center items-center text-[12px] md:text-sm">4.5</div>
+                  </div>
+                  <h3 class="text-[12px] md:text-base text-center title-font">Pet Bed</h3>
+                  <h2 class="text-[10px] md:text-base text-center">$39.99</h2>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
