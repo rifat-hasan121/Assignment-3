@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cats Zone</title>
     <!-- tailwind cdn -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
     <!-- daisyUI cdn -->
 
     <link
@@ -20,34 +20,11 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
               "color-primary": "#FFDC26",
-              "color-bg": "#FFF9F4",
+              "color-bg": "#fff2e8",
               "color-bg3d": "#FFDC26",
               "card-bg": "#F9DF8A",
             },
-                    keyframes: {
-          typing: {
-            "0%": {
-              width: "0%",
-              visibility: "hidden"
-            },
-            "100%": {
-              width: "100%"
-            }
-          },
-          blink: {
-            "50%": {
-              borderColor: "transparent"
-            },
-            "100%": {
-              borderColor: "white"
-            }
-          }
-        },
-        animation: {
-          typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
-        }
           },
         },
       };
@@ -74,12 +51,11 @@
       crossorigin="anonymous"
     ></script>
     <!-- animation  -->
-     
   </head>
   <body class="body-font">
     <!-- header part -->
     <header>
-      <nav class="bg-[#FFF9F4] py-6">
+      <nav class="md:bg-color-bg py-6">
         <!-- logo part -->
         <div class="w-10/12 mx-auto flex justify-between items-center">
           <!-- banner logo -->
@@ -166,15 +142,16 @@
           </div>
         </div>
       </nav>
+      <hr class="border border-black md:hidden" />
       <!-- Pamper Your Pet section -->
       <section
         class="w-10/12 mx-auto md:bg-[url(./c1-assets/cat-big.png)] md:h-[750px] mb-[56px] md:mb-[120px]"
       >
-        <h3 class="mt-5 text-[30px] md:text-[56px] md:mt-24 title-font mb-4 ">
+        <h3 class="mt-5 text-[30px] md:text-[56px] md:mt-24 title-font mb-4">
           Pamper Your Pet,
-          <br>
+          <br />
           Because They Deserve
-          <br>
+          <br />
           the Bes
         </h3>
         <p class="text-base md:text-xl text-[#111111] mb-6">
@@ -183,7 +160,7 @@
           your furry friends. Shop now and make tails wag with joy!
         </p>
         <button
-          class="btn btn-secondary bg-color-primary hover:bg-yellow-400 border-none text-black font-normal px-8 animate-pulse animate-bounce"
+          class="btn btn-secondary bg-color-primary hover:bg-yellow-400 border-none text-black font-normal px-8 animate-pulse"
         >
           Find a pet
         </button>
@@ -630,6 +607,61 @@
           </div>
         </div>
       </section>
+      <!-- Services -->
+      <section class="w-10/12 mx-auto">
+        <h3 class="title-font text-[36px] font-semibold mb-12">Services</h3>
+        <!-- card div -->
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-3 md:mb-[140px]">
+          <!-- card 1 -->
+          <div class="bg-color-bg px-8 py-9 rounded-xl">
+            <div class="flex justify-center">
+              <img
+                class="bg-white p-1 rounded-full flex justify-center mb-4"
+                src="./c1-assets/24hours_seivices-removebg-preview (1).png"
+                alt=""
+              />
+            </div>
+            <h3 class="title-font text-2xl text-center mb-4">24/7 Services</h3>
+            <p class="text-center text-xl text-opacity-70 mb">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <!-- card 2 -->
+          <div class="bg-color-bg px-8 py-9 rounded-xl">
+            <div class="flex justify-center">
+              <img
+                class="bg-white p-3 rounded-full flex justify-center mb-4"
+                src="./c1-assets/first delivery (1).png"
+                alt=""
+              />
+            </div>
+            <h3 class="title-font text-2xl text-center mb-4">Fast Delivery</h3>
+            <p class="text-center text-xl text-opacity-70 mb">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <!-- card 3 -->
+          <div class="bg-color-bg px-8 py-9 rounded-xl">
+            <div class="flex justify-center">
+              <img
+                class="bg-white p-1 rounded-full flex justify-center mb-4"
+                src="./c1-assets/helthy food (1).png"
+                alt=""
+              />
+            </div>
+            <h3 class="title-font text-2xl text-center mb-4">
+              Healthy Products
+            </h3>
+            <p class="text-center text-xl text-opacity-70 mb">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </section>
+
       <!-- Everyday low Price -->
       <section class="w-10/12 mx-auto">
         <h3 class="title-font text-[36px] mb-12">Everyday low Price</h3>
@@ -637,7 +669,7 @@
         <div class="md:flex md:gap-6">
           <!-- card 1 -->
           <div
-            class="w-[357px] h-[335px] mb-6 md:w-[784px] md:h-[480px] md:mb-[120px] rounded-[12px] bg-purple-400"
+            class="w-[357px] h-[335px] mb-6 md:w-[784px] md:h-[480px] md:mb-[120px] rounded-[12px] bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD]"
           >
             <!-- text div -->
             <div class="pt-[137px] pl-[87px] relative">
@@ -655,7 +687,7 @@
               </h2>
             </div>
             <!-- image div -->
-            <div class="absolute md:-mt-70 md:ml-72">
+            <div class="absolute -mt-20 ml-32 md:-mt-72 md:ml-72">
               <!-- -mt-20 ml-32 -->
               <img
                 class="w-214px h-[268px] md:size-full"
@@ -666,7 +698,7 @@
           </div>
           <!-- card 2 -->
           <div
-            class="bg-yellow-200 w-[357px] h-[385px] md:w-[512px] md:h-[480px] rounded-xl"
+            class="bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] w-[357px] h-[385px] md:w-[512px] md:h-[480px] rounded-xl"
           >
             <!-- text div  -->
             <div class="pt-[52px] pl-[50px] relative">
@@ -674,7 +706,7 @@
               <h1 class="title-font text-[56px] text-color-primary">$7.99</h1>
             </div>
             <!-- image div -->
-            <div class="absolute -mt-14 ml-26 md:-mt-20 md:ml-38">
+            <div class="absolute -mt-14 ml-28  md:-mt-20 md:ml-40">
               <img
                 class="w-[221px] md:w-full"
                 src="./c1-assets/cute-pet-mid.png"

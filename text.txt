@@ -33,3 +33,8 @@
     ],
   }
 </script>
+
+"color-primary": "#FFDC26",
+              "color-bg": "#FFF9F4",
+              "color-bg3d": "#FFDC26",
+              "card-bg": "#F9DF8A",
