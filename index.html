@@ -729,13 +729,13 @@
         <!-- card div -->
         <div class="md:flex md:gap-[170px] items-center">
           <!-- image div -->
-          <div class="pt-8 pl-[90px]">
+          <div class="pt-8 md:pl-[90px]">
             <img src="./c1-assets/cute-pet-mid.png" alt="" />
           </div>
           <!-- text div -->
-          <div>
-            <h3 class="title-font mb-5 text-[36px]">Get Pawsome News!</h3>
-            <p class="text-xl mb-[38px]">
+          <div class="">
+            <h3 class="title-font mb-5 text-[36px] text-center md:text-start">Get Pawsome News!</h3>
+            <p class=" text-center md:text-start text-xl mb-[38px]">
               Exclusive training tips, ticks, product deals and more.
             </p>
             <input
@@ -743,11 +743,13 @@
               placeholder="Enter email...."
               class="input input-bordered w-full max-w-xs block mb-[57px]"
             />
-            <button
+            <div class=" flex justify-center md:justify-start">
+              <button
               class="bg-color-primary text-xl py-[10px] px-[30px] rounded-xl hover:bg-yellow-400"
             >
               Subscribe
             </button>
+            </div>
           </div>
         </div>
       </section>
